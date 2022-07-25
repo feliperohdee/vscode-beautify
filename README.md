@@ -110,8 +110,8 @@ Use the following to embed a beautify shortcut in keybindings.json. Replace with
 
 ```javascript
 {
-  "key": "cmd+b",
-  "command": "beautify",
+  "key": "shift+cmd+f",
+  "command": "beautifyFile",
   "when": "editorFocus"
 }
 ```
